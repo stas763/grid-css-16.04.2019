@@ -45,30 +45,37 @@ a, input, textarea {
 
  .pic_1 {
    background-image: url(../image/Pic_1.png);
+   grid-area: a;
  }
 
  .pic_menu {
    background-color: #f3f3f3;
+   grid-area: b;
  }
 
  .pic_2 {
    background-image: url(../image/Pic_2.png);
+   grid-area: c;
  }
 
  .pic_3 {
    background-image: url(../image/Pic_3.png);
+   grid-area: d;
  }
 
  .pic_4 {
    background-image: url(../image/Pic_4.png);
+   grid-area: e;
  }
 
  .pic_5 {
    background-image: url(../image/Pic_5.png);
+   grid-area: f;
  }
 
  .pic_6 {
    background-image: url(../image/Pic_66.png);
+   grid-area: g;
  }
 
  .pic_1, .pic_2, .pic_3, .pic_4, .pic_5, .pic_6 {
@@ -172,4 +179,11 @@ button {
   height: 90px;
   background-image: url(../image/logo_Ali_Sayed.png);
   margin-bottom: 25px;
+}
+.grid {
+  display: grid;
+  grid-template-areas: "a a a a a a b b b"
+                       "c c c c d d d d d"
+                       "c c c c e e e e e"
+                       "f f f g g g g g g "
 }
