@@ -1,0 +1,175 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 42px;
+}
+
+h4 {
+  font-size: 40px;
+}
+
+h2, h3, h4 {
+  font-weight: 200;
+  margin-top: 0;
+}
+
+span {
+  font-weight: 900;
+}
+p {
+  font-size: 15.57px;
+  line-height: 28px;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+}
+a, input, textarea {
+  font-size: 16.57px;
+}
+ a {
+   color: #fff;
+   text-decoration: none;
+   border: 1px solid #fff;
+   border-radius: 10px;
+   padding: 10px 15px;
+   display: block;
+   max-width: 210px;
+   text-align: center;
+   margin-top: 50px;
+ }
+
+ .pic_1 {
+   background-image: url(../image/Pic_1.png);
+ }
+
+ .pic_menu {
+   background-color: #f3f3f3;
+ }
+
+ .pic_2 {
+   background-image: url(../image/Pic_2.png);
+ }
+
+ .pic_3 {
+   background-image: url(../image/Pic_3.png);
+ }
+
+ .pic_4 {
+   background-image: url(../image/Pic_4.png);
+ }
+
+ .pic_5 {
+   background-image: url(../image/Pic_5.png);
+ }
+
+ .pic_6 {
+   background-image: url(../image/Pic_66.png);
+ }
+
+ .pic_1, .pic_2, .pic_3, .pic_4, .pic_5, .pic_6 {
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+
+ }
+
+.pic_menu, .pic_2, .pic_3, .pic_4, .pic_5, .pic_6 {
+  padding: 60px 55px 70px 55px;
+}
+
+.pic_2, .pic_4, .pic_5, .pic_6 {
+  color: #fff;
+}
+
+.pic_2 div {
+  margin-bottom: 70px;
+}
+
+.form {
+  max-width:620px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form input, .form textarea {
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  padding: 18px 15px;
+
+}
+
+.form textarea {
+  width: 100%;
+  min-height: 124px;
+}
+
+.form input {
+  width: calc(48% - 30px);
+}
+
+.form input::-webkit-input-placeholder, .form textarea::-webkit-input-placeholder {color: #fff;}
+.form input::-moz-placeholder, .form textarea::-moz-placeholder {color: #fffb;}
+.form input:-moz-placeholder, .form textarea::-moz-placeholder {color: #fff;}
+.form input:-ms-input-placeholder, .form textarea::-ms-input-placeholder {color: #fff;}
+
+.pic_3 a {
+  color: #000;
+  border: 1px solid #000;
+}
+
+button {
+  display: block;
+  width: 33px;
+  height: 33px;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 64px;
+}
+
+.list li a {
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 45px;
+ height: 45px;
+ display: block;
+ border: none;
+}
+
+.list li {
+  margin-right: 10px;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  justify-content: flex-start;
+}
+
+.list .list-fb {
+  background-image: url(../image/facebook.png);
+}
+
+.list .list-dr {
+  background-image: url(../image/dribbble.png);
+}
+
+.list .list-tw {
+  background-image: url(../image/twitter.png);
+}
+
+.logo {
+  display: block;
+  width: 90px;
+  height: 90px;
+  background-image: url(../image/logo_Ali_Sayed.png);
+  margin-bottom: 25px;
+}
