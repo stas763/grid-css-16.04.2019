@@ -1,4 +1,7 @@
-body {
+html {
+  max-width: 1100px;
+  position: relative;
+  margin: 0 auto;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -74,7 +77,7 @@ a, input, textarea {
  }
 
  .pic_6 {
-   background-image: url(../image/Pic_66.png);
+   background-image: url(../image/Pic_6.jpg);
    grid-area: g;
  }
 
@@ -82,8 +85,8 @@ a, input, textarea {
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
-
  }
+
 
 .pic_menu, .pic_2, .pic_3, .pic_4, .pic_5, .pic_6 {
   padding: 60px 55px 70px 55px;
@@ -136,18 +139,22 @@ button {
   display: block;
   width: 33px;
   height: 33px;
+  background-image: url(../image/bars-solid.svg);
   background-color: transparent;
   border: none;
   margin-bottom: 64px;
+  background-repeat: no-repeat;
 }
 
 .list li a {
  background-size: cover;
- background-repeat: no-repeat;
+ /* background-repeat: no-repeat; */
  width: 45px;
  height: 45px;
  display: block;
  border: none;
+ padding-bottom: 16px;
+
 }
 
 .list li {
@@ -162,15 +169,15 @@ button {
 }
 
 .list .list-fb {
-  background-image: url(../image/facebook.png);
+  background-image: url(../image/facebook.jpg);
 }
 
 .list .list-dr {
-  background-image: url(../image/dribbble.png);
+  background-image: url(../image/dribbble.jpg);
 }
 
 .list .list-tw {
-  background-image: url(../image/twitter.png);
+  background-image: url(../image/twitter.jpg);
 }
 
 .logo {
