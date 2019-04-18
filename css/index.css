@@ -33,6 +33,7 @@ p {
 }
 a, input, textarea {
   font-size: 16.57px;
+  color: white;
 }
  a {
    color: #fff;
