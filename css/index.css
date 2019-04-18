@@ -141,15 +141,19 @@ button {
   width: 33px;
   height: 33px;
   background-image: url(../image/bars-solid.svg);
-  background-color: transparent;
   border: none;
   margin-bottom: 64px;
   background-repeat: no-repeat;
 }
 
+.send {
+background-image: url(../image/envelope-regular.svg);
+background-color: transparent;
+}
+
 .list li a {
  background-size: cover;
- /* background-repeat: no-repeat; */
+ background-repeat: no-repeat;
  width: 45px;
  height: 45px;
  display: block;
