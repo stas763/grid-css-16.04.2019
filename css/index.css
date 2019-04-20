@@ -136,7 +136,7 @@ a, input, textarea {
   border: 1px solid #000;
 }
 
-button {
+a.bars {
   display: block;
   width: 33px;
   height: 33px;
@@ -145,10 +145,26 @@ button {
   margin-bottom: 64px;
   background-repeat: no-repeat;
 }
+/* button {
+  display: block;
+  width: 33px;
+  height: 33px;
+  background-image: url(../image/bars-solid.svg);
+  border: none;
+  margin-bottom: 64px;
+  background-repeat: no-repeat;
+} */
 
 .send {
-background-image: url(../image/envelope-regular.svg);
-background-color: transparent;
+  color: #fff;
+  border-radius: 10px;
+  min-width: 210px;
+  padding: 10px 15px;
+  background-color: transparent;
+  border: 1px solid;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 25px;
 }
 
 .list li a {
