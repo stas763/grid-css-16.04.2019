@@ -145,15 +145,7 @@ a.bars {
   margin-bottom: 64px;
   background-repeat: no-repeat;
 }
-/* button {
-  display: block;
-  width: 33px;
-  height: 33px;
-  background-image: url(../image/bars-solid.svg);
-  border: none;
-  margin-bottom: 64px;
-  background-repeat: no-repeat;
-} */
+
 
 .send {
   color: #fff;
@@ -165,6 +157,7 @@ a.bars {
   text-decoration: none;
   text-align: center;
   margin-top: 25px;
+  font-size: 16.57px;
 }
 
 .list li a {
