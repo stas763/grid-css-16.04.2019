@@ -8,6 +8,7 @@ html {
   background-size: cover;
   background-repeat: no-repeat; */
 }
+
 body {
   margin: 0;
 }
@@ -33,69 +34,71 @@ h2, h3, h4 {
 span {
   font-weight: 900;
 }
+
 p {
   font-size: 15.57px;
   line-height: 28px;
   margin-bottom: 0;
   letter-spacing: 1px;
 }
+
 a, input, textarea {
   font-size: 16.57px;
   color: white;
 }
- a {
-   color: #fff;
-   text-decoration: none;
-   border: 1px solid #fff;
-   border-radius: 10px;
-   padding: 10px 15px;
-   display: block;
-   max-width: 210px;
-   text-align: center;
-   margin-top: 50px;
- }
 
- .pic_1 {
-   background-image: url(../image/Pic_1.png);
-   grid-area: a;
- }
+a {
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 10px 15px;
+  display: block;
+  max-width: 210px;
+  text-align: center;
+  margin-top: 50px;
+}
 
- .pic_menu {
-   background-color: #f3f3f3;
-   grid-area: b;
- }
+.pic_1 {
+  background-image: url(../image/Pic_1.png);
+  grid-area: a;
+}
 
- .pic_2 {
-   background-image: url(../image/Pic_2.png);
-   grid-area: c;
- }
+.pic_menu {
+  background-color: #f3f3f3;
+  grid-area: b;
+}
 
- .pic_3 {
-   background-image: url(../image/Pic_3.png);
-   grid-area: d;
- }
+.pic_2 {
+  background-image: url(../image/Pic_2.png);
+  grid-area: c;
+}
 
- .pic_4 {
-   background-image: url(../image/Pic_4.png);
-   grid-area: e;
- }
+.pic_3 {
+  background-image: url(../image/Pic_3.png);
+  grid-area: d;
+}
 
- .pic_5 {
-   background-image: url(../image/Pic_5.png);
-   grid-area: f;
- }
+.pic_4 {
+  background-image: url(../image/Pic_4.png);
+  grid-area: e;
+}
 
- .pic_6 {
-   background-image: url(../image/Pic_6.jpg);
-   grid-area: g;
- }
+.pic_5 {
+  background-image: url(../image/Pic_5.png);
+  grid-area: f;
+}
 
- .pic_1, .pic_2, .pic_3, .pic_4, .pic_5, .pic_6 {
-   background-position: center;
-   background-size: cover;
-   background-repeat: no-repeat;
- }
+.pic_6 {
+  background-image: url(../image/Pic_6.jpg);
+  grid-area: g;
+}
 
+.pic_1, .pic_2, .pic_3, .pic_4, .pic_5, .pic_6 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .pic_menu, .pic_2, .pic_3, .pic_4, .pic_5, .pic_6 {
   padding: 60px 55px 70px 55px;
@@ -110,7 +113,7 @@ a, input, textarea {
 }
 
 .form {
-  max-width:620px;
+  max-width: 620px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -122,7 +125,6 @@ a, input, textarea {
   border-radius: 10px;
   margin-bottom: 12px;
   padding: 18px 15px;
-
 }
 
 .form textarea {
@@ -134,10 +136,21 @@ a, input, textarea {
   width: calc(48% - 30px);
 }
 
-.form input::-webkit-input-placeholder, .form textarea::-webkit-input-placeholder {color: #fff;}
-.form input::-moz-placeholder, .form textarea::-moz-placeholder {color: #fffb;}
-.form input:-moz-placeholder, .form textarea::-moz-placeholder {color: #fff;}
-.form input:-ms-input-placeholder, .form textarea::-ms-input-placeholder {color: #fff;}
+.form input::-webkit-input-placeholder, .form textarea::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.form input::-moz-placeholder, .form textarea::-moz-placeholder {
+  color: #fffb;
+}
+
+.form input:-moz-placeholder, .form textarea::-moz-placeholder {
+  color: #fff;
+}
+
+.form input:-ms-input-placeholder, .form textarea::-ms-input-placeholder {
+  color: #fff;
+}
 
 .pic_3 a {
   color: #000;
@@ -154,7 +167,6 @@ a.bars {
   background-repeat: no-repeat;
 }
 
-
 .send {
   color: #fff;
   border-radius: 10px;
@@ -169,14 +181,13 @@ a.bars {
 }
 
 .list li a {
- background-size: cover;
- background-repeat: no-repeat;
- width: 35px;
- height: 35px;
- display: block;
- border: none;
- padding-bottom: 16px;
-
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 35px;
+  display: block;
+  border: none;
+  padding-bottom: 16px;
 }
 
 .list li {
@@ -210,10 +221,11 @@ a.bars {
   margin-bottom: 25px;
   background-size: cover;
 }
+
 .grid {
   display: grid;
   grid-template-areas: "a a a a a a b b b"
-                       "c c c c d d d d d"
-                       "c c c c e e e e e"
-                       "f f f g g g g g g "
+    "c c c c d d d d d"
+    "c c c c e e e e e"
+    "f f f g g g g g g "
 }
